@@ -21,7 +21,7 @@ namespace Cryptology
 
             //for cardano cypher
             string text = File.ReadAllText(path + "textExample.txt");
-            var cypher = new CardanoCipher(text);
+            var cypher = new StockadeCipher(text);
 
 
             Console.WriteLine("Encoded text:");
